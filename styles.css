@@ -571,10 +571,29 @@ svg {
       padding: 5px;
     }
   
+
+    #maincontent {
+      height: 2850px;
+    }
   
-  
+    @media (min-width: 900px) {
+
+      #maincontent {
+        height: 2700px;
+      }
+
+
+    }
+
+
     @media (min-width: 1024px) {
   
+
+      #maincontent {
+        height: 2000px;
+      }
+
+
       .propic {
         margin-top: 50px;
         width: 200px;
