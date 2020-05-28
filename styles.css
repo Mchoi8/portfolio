@@ -349,11 +349,11 @@ svg {
     left: 20%;
   }
 
-  .right::after { /* fixing the right circles on the time line*/
-    left: 6px;
+  .right::after { /* fixing the right circles on the time line */
+    left: 1px;
   }
-  .left::after {
-    right: 9px;
+  .left::after { /* aligning left circles on the timeline */
+    right: -2px;
   }
   
   /* The actual content */
@@ -564,7 +564,12 @@ svg {
         border-radius: 100%;
   
       }
-  
+      .right::after { /* fixing the right circles on the time line */
+        left: 2px;
+      }
+      .left::after { /* aligning left circles on the timeline */
+        right: 4px;
+      }
     }
   
     .intro {
@@ -581,7 +586,12 @@ svg {
       #maincontent {
         height: 2700px;
       }
-
+      .right::after { /* fixing the right circles on the time line */
+        left: 4px;
+      }
+      .left::after { /* aligning left circles on the timeline */
+        right: 6px;
+      }
 
     }
 
@@ -616,6 +626,32 @@ svg {
         margin-top: 15px;
     
       }
-  
+      .right::after { /* fixing the right circles on the time line */
+        left: 6px;
+      }
+      .left::after { /* aligning left circles on the timeline */
+        right: 8px;
+      }
 
+    }
+    @media (min-width: 1120px) {
+
+
+      .right::after { /* fixing the right circles on the time line */
+        left: 8px;
+      }
+      .left::after { /* aligning left circles on the timeline */
+        right: 9px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+
+
+      .right::after { /* fixing the right circles on the time line */
+        left: 9px;
+      }
+      .left::after { /* aligning left circles on the timeline */
+        right: 11px;
+      }
     }
