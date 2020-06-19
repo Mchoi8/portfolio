@@ -230,6 +230,10 @@ h2 {
 }
 
 .pcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid hotpink;
   width: 18rem;
   text-align: center;
   height: 330px;
@@ -278,6 +282,13 @@ svg {
 .acard, .p1card {
   color: white;
 }
+
+.p1card {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
 .acard:hover {
   color: white;
   text-decoration: none;
