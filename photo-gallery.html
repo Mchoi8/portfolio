@@ -17,19 +17,19 @@
     <nav>
       <ul class='navbar'>
         <li >
-          <a  href="index.html">Home</a>
+          <a class='anav' href="index.html">Home</a>
         </li>
         <li >
-          <a  href="index.html#aboutme" >About</a>
+          <a class='anav' href="index.html#aboutme" >About</a>
         </li>
         <li >
-          <a  href="experience.html">Experience</a>
+          <a class='anav' href="experience.html">Experience</a>
         </li>
         <li >
-          <a  href="portfolio.html">Portfolio</a>
+          <a class='anav' href="portfolio.html">Portfolio</a>
         </li> 
         <li >
-          <a href="#contact-header"  >Contact</a>
+          <a class='anav' href="#contact-header"  >Contact</a>
         </li>
       </ul>
 
@@ -42,38 +42,47 @@
 
   <div class='projectBased'>
 
-    <h1 style='text-align: center;'>E-commerce Phone Store</h1>
+    <h1 class='project-headers'><strong>Photo Gallery</strong></h1>
 
-    <img src='./images/cover-photos/ecommerce-page-sm.PNG' class='pimage' alt='ecommerce store' style="width:554px;height:253px;">
-
-
-    <p>A social media application that helps users connect virtually sharing their lives with others through posts, pictures, videos and more!
-      Users can sign up and log into their own personal accounts following other users on the platform. Every user has a live feed of posts from
-      all the users they follow.
-    </p>
-    <a>View Website</a>
+    <div class='row'>
+    <div class='proj-col1'>
+      <h4 class='project-headers'>Description</h4>
+      <p>A simple, static photo gallery of pictures that can be searched through and features a modal window for each image with a caption.
+      </p>
 
 
-    <h5>Features</h5>
 
-    <ul>
-      <li>User authentication for signing up with an email and password and logging in.</li>
-      <li>Profile page to check account info and user related items such as user feed and followers.</li>
-      <li>Home post feed page to view all live posts from followed users.</li>
-      <li></li>
-    </ul>
+      <h4 class='project-headers'>Features</h4>
+
+      <ul class='project-list'>
+        <li>Photo gallery with a close up view using modal windows.</li>
+        <li>A search bar to look up images within the gallery.</li>
+      </ul>
 
 
-    <h5>Website Technology</h5>
+      <h4 class='project-headers'>Website Technology</h4>
 
-    <ul>
-      <li>Front End: React, Material UI</li>
-      <li>Back End: MongoDB, Mongoose</li>
-      <li>Frameworks/Tools: Next.js, Express.js, Passport.js</li>
-      <li></li>
-    </ul>
-    <a class='otherprojects' href='portfolio.html'>Other Projects</a>
+      <ul class='project-list'>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Frameworks/Tools: Lightbox.js, jQuery</li>
+      </ul>
 
+      <div class='btn-div'>
+        <a class='project-btn' href='photo-gallery-folder/index.html'>View Website</a>
+        <a class='project-btn' href='portfolio.html'>Other Projects</a>
+      </div>
+    </div>
+
+
+
+    <div class='proj-col2'>
+      <img src='./images/cover-photos/photo-gallery-sm.PNG' class='project-image' alt='photo gallery'>
+
+      <img src='./images/cover-photos/photo-gallery1-sm.PNG' class='project-image' alt='photo gallery 1'>
+  
+    </div>
+
+    </div>
   </div>
 
 
