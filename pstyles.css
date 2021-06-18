@@ -642,6 +642,12 @@ svg {
       flex: 1;
     }
 
+    .proj-mobile {
+      display: flex;
+      flex-direction: row;
+      flex-basis: 100%;
+      flex: 1;
+    }
 
 
     /* online form  */
@@ -665,10 +671,8 @@ svg {
     }
 
     .mobile-form {
-      vertical-align: top;
+      display:inline-block;
       margin: 10px;
-      width: 95px;
-      height: 480px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       border-radius: 5px;
     }
@@ -681,8 +685,14 @@ svg {
         height: 170px;
         margin: 20px;
         margin-top: 15px;
-    
       }
+
+      .mobile-form {
+        width: 65px;
+        height: 200px;
+      }
+
+
     }
   
   
@@ -713,7 +723,7 @@ svg {
   
     .mobile-form {
       width: 95px;
-      height: 480px;
+      height: 250px;
     }
 
     .desktop-form {
@@ -831,7 +841,7 @@ svg {
 
       .mobile-form {
         width: 160px;
-        height: 805px;
+        height: 305px;
       }
 
       .desktop-form {

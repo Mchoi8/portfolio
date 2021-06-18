@@ -335,31 +335,6 @@ svg {
   color: #00D646;
 }
 
-.text {
-  background-color: #ffffff;
-  color: black;
-  border: 2px solid black;
-  font-size: 16px;
-  padding: 12px 25px;
-}
-
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: white;
-} 
-
-
-.card-container:hover .middle {
-  opacity: 1;
-}
 
 
   /* -------------- */
@@ -614,6 +589,17 @@ svg {
         margin-top: 15px;
     
       }
+
+
+      .experience {
+        visibility:hidden;
+      }
+      
+
+
+
+
+
     }
   
   
@@ -631,6 +617,11 @@ svg {
       .left::after { /* aligning left circles on the timeline */
         right: 4px;
       }
+
+      .experience {
+        visibility:visible;
+      }
+      
     }
   
     .intro {
@@ -654,6 +645,9 @@ svg {
         right: 6px;
       }
 
+      .experience {
+        visibility:visible;
+      }
     }
 
 
@@ -662,6 +656,11 @@ svg {
 
       #maincontent {
         height: 2000px;
+      }
+
+
+      .experience {
+        visibility:visible;
       }
 
 
@@ -696,7 +695,9 @@ svg {
 
     }
     @media (min-width: 1120px) {
-
+      .experience {
+        visibility:visible;
+      }
 
       .right::after { /* fixing the right circles on the time line */
         left: 8px;
@@ -708,7 +709,10 @@ svg {
 
     @media (min-width: 1200px) {
 
-
+      .experience {
+        visibility:visible;
+      }
+      
       .right::after { /* fixing the right circles on the time line */
         left: 9px;
       }
